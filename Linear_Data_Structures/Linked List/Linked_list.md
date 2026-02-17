@@ -2,59 +2,6 @@
 
 ## 1. Definition
 
-A **Linked List** is a linear data structure where elements (called _nodes_) are stored in **non-contiguous memory locations**.
-
-Each node contains:
-
-- **Data**
-- **A reference (pointer) to the next node**
-
-In a **Doubly Linked List**, each node also contains a pointer to the previous node.
-
-Unlike arrays, linked lists do **not** rely on index-based memory calculation.  
-They connect elements using references.
-
----
-
-## 2. Memory Representation
-
-Each node conceptually looks like this:
-
-Example:
-
-Key idea:
-
-- Memory is **not contiguous**
-- Nodes can exist anywhere in memory
-- The structure is maintained logically through pointers
-
----
-
-## 3. Types of Linked Lists
-
-### 3.1 Singly Linked List
-
-- Each node points to the next node
-- Traversal is one-directional
-
-### 3.2 Doubly Linked List
-
-- Each node has:
-  - `prev` pointer
-  - `next` pointer
-- Allows forward and backward traversal
-- Uses more memory
-
-### 3.3 Circular Linked List
-
-- The last node points back to the head
-- No `None` at the end
-- Used in cyclic systems (e.g., scheduling)
-
-# Linked Lists
-
-## 1. Definition
-
 A **linked list** is a linear data structure where elements (called "nodes") are stored in **non-contiguous memory locations**. Each node contains:
 
 - **data** — the value stored in the node
